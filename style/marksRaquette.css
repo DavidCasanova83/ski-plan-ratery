@@ -1,0 +1,54 @@
+/* Position des points pour chaques pistes de ski de fond */
+
+.tour-de-montruvel {
+  top: 86.2%;
+  left: 70%;
+}
+
+.card-tour-de-montruvel {
+  top: 86.2%;
+  left: 70%;
+  color: green;
+}
+
+.montruvel-1 {
+  top: 89%;
+  left: 58.8%;
+}
+
+.card-montruvel-1 {
+  top: 89%;
+  left: 58.8%;
+  color: green;
+}
+
+.montruvel-2 {
+  top: 83%;
+  left: 65.5%;
+}
+
+.card-montruvel-2 {
+  top: 83%;
+  left: 65.5%;
+  color: green;
+}
+
+.cabane-colle-baudet {
+  top: 58%;
+  left: 69.5%;
+}
+.card-cabane-colle-baudet {
+  top: 58%;
+  left: 69.5%;
+  color: red;
+}
+
+.champlatte {
+  top: 19.5%;
+  left: 37%;
+}
+.card-champlatte {
+  top: 19.5%;
+  left: 37%;
+  color: black;
+}

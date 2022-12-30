@@ -1,0 +1,145 @@
+/* Position des points pour chaques pistes de ski de fond */
+
+.lePre {
+  top: 81.2%;
+  left: 57.6%;
+}
+
+.card-lePre {
+  top: 81.2%;
+  left: 57.6%;
+  color: green;
+}
+
+.cabane-bleue {
+  top: 78.8%;
+  left: 56.8%;
+}
+
+.card-cabane-bleue {
+  top: 78.8%;
+  left: 56.8%;
+  color: blue;
+}
+
+.la-rochaille {
+  top: 89.5%;
+  left: 43%;
+}
+
+.card-la-rochaille {
+  top: 89.5%;
+  left: 43%;
+  color: blue;
+}
+
+.cabane-rouge {
+  top: 83%;
+  left: 71%;
+}
+.card-cabane-rouge {
+  top: 83%;
+  left: 71%;
+  color: red;
+}
+
+.les-frigouliers {
+  top: 60%;
+  left: 67%;
+}
+
+.card-les-frigouliers {
+  top: 60%;
+  left: 67%;
+  color: red;
+}
+
+.les-coulets {
+  top: 50%;
+  left: 66%;
+}
+
+.card-les-coulets {
+  top: 50%;
+  left: 66%;
+  color: red;
+}
+
+.champlatte {
+  top: 20.5%;
+  left: 37%;
+}
+.card-champlatte {
+  top: 20.5%;
+  left: 37%;
+  color: #ee7f01;
+}
+
+.colle-baudet {
+  top: 44%;
+  left: 51%;
+}
+.card-colle-baudet {
+  top: 44%;
+  left: 51%;
+  color: black;
+}
+
+/* NE PAS MODIFIER */
+
+#map-image {
+  width: 800px;
+  height: 600px;
+}
+
+.etat {
+  width: 2%;
+  border-radius: 50%;
+  cursor: pointer;
+  position: absolute;
+}
+
+.etat:hover {
+  transform: scale(1.5, 1.5);
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.7);
+  z-index: 1;
+}
+
+/* Rectangle d'infos des pistes */
+.cards {
+  position: absolute;
+  padding: 0.9em;
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  border: 1px solid black;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.7);
+}
+.cards > p {
+  margin: 0;
+}
+
+/* HOVER */
+.visibility {
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.25s;
+}
+
+/* border: 1px solid linear-gradient(to left top, #3d3aee 10%, #24ddd4 90%); */
+
+/* Span dans le paragraphe */
+
+.card-name {
+  font-weight: bold;
+}
+.card-etat {
+  font-weight: bold;
+  color: black;
+}
+
+#div2 {
+  display: none; /* masquez la seconde div par défaut */
+}
+#div1:hover + #div2 {
+  display: block; /* affichez la seconde div lorsque la souris est en hover sur la première div */
+}

@@ -1,0 +1,30 @@
+#tour-de-montruvel {
+  color: green;
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+#montruvel-1 {
+  color: green;
+  display: flex;
+  align-items: center;
+}
+
+#montruvel-2 {
+  color: green;
+  display: flex;
+  align-items: center;
+}
+
+#cabane-colle-baudet {
+  color: red;
+  display: flex;
+  align-items: center;
+}
+
+#champlatte {
+  color: black;
+  display: flex;
+  align-items: center;
+}
